@@ -1,3 +1,6 @@
+const path = require('path'); // Load path module
+require('dotenv').config({ path: path.join(__dirname, '.env') }); // Explicitly load .env from the current directory
+
 const express = require('express');
 const cors = require('cors');
 const db = require('./db');
