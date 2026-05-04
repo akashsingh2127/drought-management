@@ -258,3 +258,6 @@ app.get('/api/stats', async (req, res) => {
 app.listen(PORT, () => {
   console.log(`\n🌱 Drought Management Server running at http://localhost:${PORT}`);
 });
+
+
+// 
