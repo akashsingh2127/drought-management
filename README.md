@@ -112,3 +112,5 @@ App opens at: **http://localhost:3000**
 2. **Backend → Database**: Express runs `db.query(INSERT ...)` → MySQL stores data
 3. **Database → Frontend**: Page loads → `axios.get()` → Express runs `SELECT` → Data shown in table
 4. **Live Update**: After adding data, the table re-fetches and shows the new record instantly
+
+## This project shows how a data can be stored related to agriculture and farmers and how it can save farmers from agriculture related problems
